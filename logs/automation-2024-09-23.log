@@ -1,0 +1,56 @@
+18:42:50.173 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse-workspace\EvershopAutomationProject_v101\grouping.xml"
+18:42:50.539 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\eclipse-workspace\EvershopAutomationProject_v101\grouping.xml
+
+18:42:55.318 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Starting TC001_AccountRegistrationTest ***
+18:43:01.824 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating Name and Email
+18:43:06.612 [main] INFO  testCases.TC002_LoginTest - *** Starting TC002_LoginTest ***
+18:43:11.738 [main] INFO  testCases.TC002_LoginTest - Validating Name and Email
+18:43:11.794 [main] INFO  testCases.TC002_LoginTest - *** Finished TC002_LoginTest ***
+18:44:26.258 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse-workspace\EvershopAutomationProject_v101\grouping.xml"
+18:44:26.641 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\eclipse-workspace\EvershopAutomationProject_v101\grouping.xml
+
+18:44:35.523 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Starting TC001_AccountRegistrationTest ***
+18:44:58.537 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating Name and Email
+18:44:58.659 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Finished TC001_AccountRegistrationTest ***
+18:45:02.646 [main] INFO  testCases.TC002_LoginTest - *** Starting TC002_LoginTest ***
+18:45:08.707 [main] INFO  testCases.TC002_LoginTest - Validating Name and Email
+18:45:47.085 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse-workspace\EvershopAutomationProject_v101\grouping.xml"
+18:45:47.443 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\eclipse-workspace\EvershopAutomationProject_v101\grouping.xml
+
+18:45:52.460 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Starting TC001_AccountRegistrationTest ***
+18:46:00.080 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating Name and Email
+18:46:00.181 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Finished TC001_AccountRegistrationTest ***
+18:46:05.251 [main] INFO  testCases.TC002_LoginTest - *** Starting TC002_LoginTest ***
+18:46:24.850 [main] INFO  testCases.TC002_LoginTest - Validating Name and Email
+18:46:24.901 [main] INFO  testCases.TC002_LoginTest - *** Finished TC002_LoginTest ***
+18:47:10.168 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse-workspace\EvershopAutomationProject_v101\master.xml"
+18:47:10.590 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\eclipse-workspace\EvershopAutomationProject_v101\master.xml
+
+18:47:15.565 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Starting TC001_AccountRegistrationTest ***
+18:47:23.533 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating Name and Email
+18:47:23.639 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Finished TC001_AccountRegistrationTest ***
+18:47:28.251 [main] INFO  testCases.TC002_LoginTest - *** Starting TC002_LoginTest ***
+18:47:35.103 [main] INFO  testCases.TC002_LoginTest - Validating Name and Email
+18:47:35.157 [main] INFO  testCases.TC002_LoginTest - *** Finished TC002_LoginTest ***
+18:49:11.520 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse-workspace\EvershopAutomationProject_v101\master.xml"
+18:49:20.554 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Starting TC001_AccountRegistrationTest ***
+18:49:40.512 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating Name and Email
+18:49:40.631 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Finished TC001_AccountRegistrationTest ***
+18:49:44.653 [main] INFO  testCases.TC002_LoginTest - *** Starting TC002_LoginTest ***
+18:49:50.549 [main] INFO  testCases.TC002_LoginTest - Validating Name and Email
+18:49:50.600 [main] INFO  testCases.TC002_LoginTest - *** Finished TC002_LoginTest ***
+18:53:58.942 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse-workspace\EvershopAutomationProject_v101\master.xml"
+18:54:05.443 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Starting TC001_AccountRegistrationTest ***
+18:54:14.534 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating Name and Email
+18:54:14.652 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Finished TC001_AccountRegistrationTest ***
+18:54:18.883 [main] INFO  testCases.TC002_LoginTest - *** Starting TC002_LoginTest ***
+18:54:25.098 [main] INFO  testCases.TC002_LoginTest - Validating Name and Email
+18:54:25.155 [main] INFO  testCases.TC002_LoginTest - *** Finished TC002_LoginTest ***
+19:11:28.275 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse-workspace\EvershopAutomationProject_v101\master.xml"
+19:11:34.064 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Starting TC001_AccountRegistrationTest ***
+19:11:48.604 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating Name and Email
+19:11:48.721 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Finished TC001_AccountRegistrationTest ***
