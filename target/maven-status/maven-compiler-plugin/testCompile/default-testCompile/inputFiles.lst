@@ -1,8 +1,12 @@
 C:\eclipse-workspace\EvershopAutomationProject_v101\src\test\java\pageObjects\BasePage.java
+C:\eclipse-workspace\EvershopAutomationProject_v101\src\test\java\pageObjects\CartPage.java
 C:\eclipse-workspace\EvershopAutomationProject_v101\src\test\java\pageObjects\CreateAnAccountPage.java
+C:\eclipse-workspace\EvershopAutomationProject_v101\src\test\java\pageObjects\ExpectedProductDetailsPage.java
 C:\eclipse-workspace\EvershopAutomationProject_v101\src\test\java\pageObjects\HomePage.java
 C:\eclipse-workspace\EvershopAutomationProject_v101\src\test\java\pageObjects\MyAccountPage.java
+C:\eclipse-workspace\EvershopAutomationProject_v101\src\test\java\pageObjects\SearchResultPage.java
 C:\eclipse-workspace\EvershopAutomationProject_v101\src\test\java\testBase\BaseClass.java
 C:\eclipse-workspace\EvershopAutomationProject_v101\src\test\java\testCases\TC001_AccountRegistrationTest.java
 C:\eclipse-workspace\EvershopAutomationProject_v101\src\test\java\testCases\TC002_LoginTest.java
+C:\eclipse-workspace\EvershopAutomationProject_v101\src\test\java\testCases\TC003_CartValidationTest.java
 C:\eclipse-workspace\EvershopAutomationProject_v101\src\test\java\utilities\ExtentReportManager.java

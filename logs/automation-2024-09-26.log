@@ -1,0 +1,65 @@
+18:31:20.700 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse-workspace\EvershopAutomationProject_v101\grouping.xml"
+18:31:21.052 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\eclipse-workspace\EvershopAutomationProject_v101\grouping.xml
+
+18:31:31.814 [main] INFO  testCases.TC003_CartValidationTest - *** Starting TC003_CartValidationTest ***
+18:31:52.968 [main] INFO  testCases.TC003_CartValidationTest - *** Finished TC003_CartValidationTest ***
+18:38:49.935 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse-workspace\EvershopAutomationProject_v101\grouping.xml"
+18:38:50.322 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\eclipse-workspace\EvershopAutomationProject_v101\grouping.xml
+
+18:39:01.169 [main] INFO  testCases.TC003_CartValidationTest - *** Starting TC003_CartValidationTest ***
+18:39:24.161 [main] INFO  testCases.TC003_CartValidationTest - *** Finished TC003_CartValidationTest ***
+18:40:20.502 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse-workspace\EvershopAutomationProject_v101\grouping.xml"
+18:40:20.876 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\eclipse-workspace\EvershopAutomationProject_v101\grouping.xml
+
+18:40:31.418 [main] INFO  testCases.TC003_CartValidationTest - *** Starting TC003_CartValidationTest ***
+18:40:57.295 [main] INFO  testCases.TC003_CartValidationTest - *** Finished TC003_CartValidationTest ***
+18:46:39.137 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse-workspace\EvershopAutomationProject_v101\grouping.xml"
+18:46:39.515 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\eclipse-workspace\EvershopAutomationProject_v101\grouping.xml
+
+18:46:50.407 [main] INFO  testCases.TC003_CartValidationTest - *** Starting TC003_CartValidationTest ***
+18:47:36.364 [main] INFO  testCases.TC003_CartValidationTest - *** Finished TC003_CartValidationTest ***
+19:30:50.409 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse-workspace\EvershopAutomationProject_v101\grouping.xml"
+19:30:50.755 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\eclipse-workspace\EvershopAutomationProject_v101\grouping.xml
+
+19:31:04.095 [main] INFO  testCases.TC003_CartValidationTest - *** Starting TC003_CartValidationTest ***
+19:38:31.173 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse-workspace\EvershopAutomationProject_v101\grouping.xml"
+19:38:31.537 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\eclipse-workspace\EvershopAutomationProject_v101\grouping.xml
+
+19:38:43.152 [main] INFO  testCases.TC003_CartValidationTest - *** Starting TC003_CartValidationTest ***
+19:39:40.200 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse-workspace\EvershopAutomationProject_v101\grouping.xml"
+19:39:40.608 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\eclipse-workspace\EvershopAutomationProject_v101\grouping.xml
+
+19:39:57.565 [main] INFO  testCases.TC003_CartValidationTest - *** Starting TC003_CartValidationTest ***
+19:41:39.997 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse-workspace\EvershopAutomationProject_v101\grouping.xml"
+19:41:40.343 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\eclipse-workspace\EvershopAutomationProject_v101\grouping.xml
+
+19:41:54.044 [main] INFO  testCases.TC003_CartValidationTest - *** Starting TC003_CartValidationTest ***
+19:44:14.727 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse-workspace\EvershopAutomationProject_v101\grouping.xml"
+19:44:15.101 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\eclipse-workspace\EvershopAutomationProject_v101\grouping.xml
+
+19:44:31.624 [main] INFO  testCases.TC003_CartValidationTest - *** Starting TC003_CartValidationTest ***
+19:45:19.232 [main] INFO  testCases.TC003_CartValidationTest - *** Finished TC003_CartValidationTest ***
+20:42:52.771 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse-workspace\EvershopAutomationProject_v101\grouping.xml"
+20:42:53.449 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\eclipse-workspace\EvershopAutomationProject_v101\grouping.xml
+
+20:43:03.565 [main] INFO  testCases.TC003_CartValidationTest - *** Starting TC003_CartValidationTest ***
+20:43:33.187 [main] INFO  testCases.TC003_CartValidationTest - *** Finished TC003_CartValidationTest ***
+20:43:53.531 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse-workspace\EvershopAutomationProject_v101\grouping.xml"
+20:43:53.973 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\eclipse-workspace\EvershopAutomationProject_v101\grouping.xml
+
+20:44:07.950 [main] INFO  testCases.TC003_CartValidationTest - *** Starting TC003_CartValidationTest ***
+20:44:57.718 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse-workspace\EvershopAutomationProject_v101\grouping.xml"
+20:44:58.251 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\eclipse-workspace\EvershopAutomationProject_v101\grouping.xml
+
