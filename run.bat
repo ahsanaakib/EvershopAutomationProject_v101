@@ -1,2 +1,3 @@
-cd C:\eclipse-workspace\EvershopAutomationProject_v101
+@echo off
+cd /d %~dp0
 mvn test
