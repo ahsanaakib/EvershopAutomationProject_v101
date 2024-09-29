@@ -16,7 +16,7 @@ import testBase.BaseClass;
 public class TC004_CheckoutTest extends BaseClass {
 
 	@Test(groups = { "Regression" })
-	public void verify_cartValidation() {
+	public void verify_checkoutProcessTest() {
 		logger.info("*** Starting TC004_CheckoutTest ***");
 		try {
 			//Navigate to my account page
