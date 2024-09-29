@@ -16,36 +16,40 @@ public class TC001_AccountRegistrationTest extends BaseClass{
 		logger.info("*** Starting TC001_AccountRegistrationTest ***");
 		try
 		{
-		HomePage hp=new HomePage(driver);
-		hp.clickMyAccount();
+			//Navigate to My Account page
+			HomePage hp=new HomePage(driver);
+			hp.clickMyAccount();
 		
-		MyAccountPage map=new MyAccountPage(driver);
-		map.clickCreateMyAcc();
+			//Proceed to create account
+			MyAccountPage map=new MyAccountPage(driver);
+			map.clickCreateMyAcc();
 		
-		CreateAnAccountPage cap=new CreateAnAccountPage(driver);
-		cap.setName("ahsan");
-		
-		cap.setEmail(randomString() + "@gmail.com");
-		cap.setPassword("test@123");
-		cap.clickSignUp();
-		
-		Thread.sleep(3000);
-		hp.clickMyAccount();
-		
-		logger.info("Validating Name and Email");
-		if(map.getUserAccName().equals("ahsan") && map.getUserEmail().contains("@gmail.com"))
-		{
-			Assert.assertTrue(true);
-		}
-		else
-		{
-			Assert.fail("Account info not matched");
-		}
+			CreateAnAccountPage cap=new CreateAnAccountPage(driver);
 			
-		map.clickLogout();
+			cap.setName("ahsan");
+			cap.setEmail(randomString() + "@gmail.com");
+			cap.setPassword("test@123");
+			cap.clickSignUp();
+			Thread.sleep(3000);
+			
+			//Navigate to My Account page
+			hp.clickMyAccount();
+		
+			logger.info("Validating Name and Email");
+			if(map.getUserAccName().equals("ahsan") && map.getUserEmail().contains("@gmail.com"))
+			{
+				Assert.assertTrue(true);
+			}
+			else
+			{
+			Assert.fail("Account info not matched");
+			}
+			
+			map.clickLogout();
 		
 		}catch (Exception e) {
-			Assert.fail();
+			logger.error("Exception encountered:", e);
+			Assert.fail("Test case failed due to an exception: " + e.getMessage());
 		}
 		logger.info("*** Finished TC001_AccountRegistrationTest ***");
 	}

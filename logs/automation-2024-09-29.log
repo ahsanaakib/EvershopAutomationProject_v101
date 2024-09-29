@@ -1,0 +1,57 @@
+01:52:54.451 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse-workspace\EvershopAutomationProject_v101\grouping.xml"
+01:52:54.951 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\eclipse-workspace\EvershopAutomationProject_v101\grouping.xml
+
+01:53:01.127 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Starting TC001_AccountRegistrationTest ***
+01:53:10.665 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating Name and Email
+01:53:10.771 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Finished TC001_AccountRegistrationTest ***
+01:53:19.424 [main] INFO  testCases.TC002_LoginTest - *** Starting TC002_LoginTest ***
+01:53:47.303 [main] INFO  testCases.TC002_LoginTest - Login appears to be successful, no error message found.
+01:53:54.816 [main] INFO  testCases.TC002_LoginTest - Validating Name and Email
+01:53:54.872 [main] INFO  testCases.TC002_LoginTest - Login verification passed!
+01:53:54.872 [main] INFO  testCases.TC002_LoginTest - *** Finished TC002_LoginTest ***
+01:54:04.522 [main] INFO  testCases.TC003_CartValidationTest - *** Starting TC003_CartValidationTest ***
+01:55:24.715 [main] INFO  testCases.TC003_CartValidationTest - *** Finished TC003_CartValidationTest ***
+01:55:49.726 [main] INFO  testCases.TC004_CheckoutTest - *** Starting TC004_CheckoutTest ***
+01:58:53.667 [main] INFO  testCases.TC004_CheckoutTest - Order Id:Order #16983
+01:58:53.667 [main] INFO  testCases.TC004_CheckoutTest - *** Finished TC004_CheckoutTest ***
+12:06:58.537 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse-workspace\EvershopAutomationProject_v101\grouping.xml"
+12:06:58.987 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\eclipse-workspace\EvershopAutomationProject_v101\grouping.xml
+
+12:07:10.064 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Starting TC001_AccountRegistrationTest ***
+12:07:18.653 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating Name and Email
+12:07:18.770 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Finished TC001_AccountRegistrationTest ***
+12:07:32.841 [main] INFO  testCases.TC002_LoginTest - *** Starting TC002_LoginTest ***
+12:08:08.521 [main] INFO  testCases.TC002_LoginTest - Login appears to be successful, no error message found.
+12:08:10.277 [main] INFO  testCases.TC002_LoginTest - Validating Name and Email
+12:08:10.337 [main] INFO  testCases.TC002_LoginTest - Login verification passed!
+12:08:10.337 [main] INFO  testCases.TC002_LoginTest - *** Finished TC002_LoginTest ***
+12:08:39.837 [main] INFO  testCases.TC003_CartValidationTest - *** Starting TC003_CartValidationTest ***
+12:09:22.822 [main] INFO  testCases.TC003_CartValidationTest - *** Finished TC003_CartValidationTest ***
+12:09:54.031 [main] INFO  testCases.TC004_CheckoutTest - *** Starting TC004_CheckoutTest ***
+12:11:17.671 [main] INFO  testCases.TC004_CheckoutTest - Order Id:Order #16988
+12:11:17.671 [main] INFO  testCases.TC004_CheckoutTest - *** Finished TC004_CheckoutTest ***
+12:58:18.745 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse-workspace\EvershopAutomationProject_v101\grouping.xml"
+12:58:19.247 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\eclipse-workspace\EvershopAutomationProject_v101\grouping.xml
+
+12:58:24.431 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Starting TC001_AccountRegistrationTest ***
+12:58:31.273 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating Name and Email
+12:58:31.392 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Finished TC001_AccountRegistrationTest ***
+12:58:35.395 [main] INFO  testCases.TC002_LoginTest - *** Starting TC002_LoginTest ***
+12:58:56.602 [main] INFO  testCases.TC002_LoginTest - Login appears to be successful, no error message found.
+12:59:20.461 [main] INFO  testCases.TC002_LoginTest - Validating Name and Email
+12:59:20.515 [main] INFO  testCases.TC002_LoginTest - Login verification passed!
+12:59:20.516 [main] INFO  testCases.TC002_LoginTest - *** Finished TC002_LoginTest ***
+12:59:41.623 [main] INFO  testCases.TC003_CartValidationTest - *** Starting TC003_CartValidationTest ***
+13:00:43.428 [main] INFO  testCases.TC003_CartValidationTest - *** Finished TC003_CartValidationTest ***
+13:00:58.881 [main] INFO  testCases.TC004_CheckoutTest - *** Starting TC004_CheckoutTest ***
+13:02:16.257 [main] INFO  testCases.TC004_CheckoutTest - Order Id:Order #16989
+13:02:16.257 [main] INFO  testCases.TC004_CheckoutTest - *** Finished TC004_CheckoutTest ***
+14:23:48.417 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse-workspace\EvershopAutomationProject_v101\master.xml"
+14:23:48.886 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\eclipse-workspace\EvershopAutomationProject_v101\master.xml
+
+14:23:56.058 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Starting TC001_AccountRegistrationTest ***
+14:24:03.992 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating Name and Email

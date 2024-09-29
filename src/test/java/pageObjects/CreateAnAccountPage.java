@@ -37,6 +37,7 @@ public class CreateAnAccountPage extends BasePage{
 	}
 	public void clickSignUp()
 	{
+		waitForElementToBeClickable(btnSignUp, 10);
 		btnSignUp.click();
 	}
 }

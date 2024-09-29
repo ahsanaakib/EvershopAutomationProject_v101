@@ -35,6 +35,7 @@ public class MyAccountPage extends BasePage{
 	//registration
 	public void clickCreateMyAcc()
 	{
+		waitForElementToBeClickable(lnkCreateMyAcc, 10);
 		lnkCreateMyAcc.click();
 	}
 	
@@ -64,5 +65,9 @@ public class MyAccountPage extends BasePage{
 	public void clickSignin()
 	{
 		btnSignin.click();
+	}
+	public boolean isUserLoggedIn()
+	{
+		return lnkLogout.isDisplayed();
 	}
 }

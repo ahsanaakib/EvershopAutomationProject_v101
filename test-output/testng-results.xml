@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-26T20:55:24 BDT" name="Master Suite" finished-at="2024-09-26T20:58:01 BDT" duration-ms="156535">
+  <suite started-at="2024-09-29T14:23:48 BDT" name="Master Suite" finished-at="2024-09-29T14:27:53 BDT" duration-ms="244275">
     <groups>
-      <group name="Master">
-        <method signature="TC003_CartValidationTest.verify_cartValidation()[pri:0, instance:testCases.TC003_CartValidationTest@13c3c1e1]" name="verify_cartValidation" class="testCases.TC003_CartValidationTest"/>
-      </group> <!-- Master -->
       <group name="Sanity">
-        <method signature="TC001_AccountRegistrationTest.verify_accRegistration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@41925502]" name="verify_accRegistration" class="testCases.TC001_AccountRegistrationTest"/>
-        <method signature="TC002_LoginTest.verify_loginTest()[pri:0, instance:testCases.TC002_LoginTest@5b40ceb]" name="verify_loginTest" class="testCases.TC002_LoginTest"/>
-        <method signature="TC003_CartValidationTest.verify_cartValidation()[pri:0, instance:testCases.TC003_CartValidationTest@13c3c1e1]" name="verify_cartValidation" class="testCases.TC003_CartValidationTest"/>
+        <method signature="TC001_AccountRegistrationTest.verify_accRegistration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@618c5d94]" name="verify_accRegistration" class="testCases.TC001_AccountRegistrationTest"/>
+        <method signature="TC002_LoginTest.verify_loginTest()[pri:0, instance:testCases.TC002_LoginTest@36546a22]" name="verify_loginTest" class="testCases.TC002_LoginTest"/>
+        <method signature="TC003_CartValidationTest.verify_cartValidation()[pri:0, instance:testCases.TC003_CartValidationTest@285c08c8]" name="verify_cartValidation" class="testCases.TC003_CartValidationTest"/>
       </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TC003_CartValidationTest.verify_cartValidation()[pri:0, instance:testCases.TC003_CartValidationTest@285c08c8]" name="verify_cartValidation" class="testCases.TC003_CartValidationTest"/>
+        <method signature="TC004_CheckoutTest.verify_cartValidation()[pri:0, instance:testCases.TC004_CheckoutTest@295eaa7c]" name="verify_cartValidation" class="testCases.TC004_CheckoutTest"/>
+      </group> <!-- Regression -->
     </groups>
-    <test started-at="2024-09-26T20:55:24 BDT" name="Test" finished-at="2024-09-26T20:58:01 BDT" duration-ms="156535">
-      <class name="testCases.TC002_LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginTest@5b40ceb]" started-at="2024-09-26T20:56:28 BDT" name="setup" finished-at="2024-09-26T20:56:35 BDT" duration-ms="7180" status="PASS">
+    <test started-at="2024-09-29T14:23:48 BDT" name="Test" finished-at="2024-09-29T14:27:53 BDT" duration-ms="244275">
+      <class name="testCases.TC004_CheckoutTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_CheckoutTest@295eaa7c]" started-at="2024-09-29T14:26:07 BDT" name="setup" finished-at="2024-09-29T14:26:23 BDT" duration-ms="15927" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -31,17 +32,43 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_loginTest()[pri:0, instance:testCases.TC002_LoginTest@5b40ceb]" started-at="2024-09-26T20:56:35 BDT" name="verify_loginTest" finished-at="2024-09-26T20:56:55 BDT" duration-ms="20326" status="PASS">
+        <test-method signature="verify_cartValidation()[pri:0, instance:testCases.TC004_CheckoutTest@295eaa7c]" started-at="2024-09-29T14:26:23 BDT" name="verify_cartValidation" finished-at="2024-09-29T14:27:53 BDT" duration-ms="89455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_cartValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC004_CheckoutTest@295eaa7c]" started-at="2024-09-29T14:27:53 BDT" name="tearDown" finished-at="2024-09-29T14:27:53 BDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC004_CheckoutTest -->
+      <class name="testCases.TC002_LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginTest@36546a22]" started-at="2024-09-29T14:24:04 BDT" name="setup" finished-at="2024-09-29T14:24:08 BDT" duration-ms="4121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_loginTest()[pri:0, instance:testCases.TC002_LoginTest@36546a22]" started-at="2024-09-29T14:24:08 BDT" name="verify_loginTest" finished-at="2024-09-29T14:24:38 BDT" duration-ms="29774" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_LoginTest@5b40ceb]" started-at="2024-09-26T20:56:55 BDT" name="tearDown" finished-at="2024-09-26T20:56:55 BDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_LoginTest@36546a22]" started-at="2024-09-29T14:24:38 BDT" name="tearDown" finished-at="2024-09-29T14:24:38 BDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC002_LoginTest -->
       <class name="testCases.TC001_AccountRegistrationTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegistrationTest@41925502]" started-at="2024-09-26T20:55:25 BDT" name="setup" finished-at="2024-09-26T20:55:41 BDT" duration-ms="16100" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegistrationTest@618c5d94]" started-at="2024-09-29T14:23:49 BDT" name="setup" finished-at="2024-09-29T14:23:56 BDT" duration-ms="6825" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -57,17 +84,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_accRegistration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@41925502]" started-at="2024-09-26T20:55:41 BDT" name="verify_accRegistration" finished-at="2024-09-26T20:56:28 BDT" duration-ms="47018" status="PASS">
+        <test-method signature="verify_accRegistration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@618c5d94]" started-at="2024-09-29T14:23:56 BDT" name="verify_accRegistration" finished-at="2024-09-29T14:24:04 BDT" duration-ms="8063" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_accRegistration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountRegistrationTest@41925502]" started-at="2024-09-26T20:56:28 BDT" name="tearDown" finished-at="2024-09-26T20:56:28 BDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountRegistrationTest@618c5d94]" started-at="2024-09-29T14:24:04 BDT" name="tearDown" finished-at="2024-09-29T14:24:04 BDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC001_AccountRegistrationTest -->
       <class name="testCases.TC003_CartValidationTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_CartValidationTest@13c3c1e1]" started-at="2024-09-26T20:56:55 BDT" name="setup" finished-at="2024-09-26T20:57:07 BDT" duration-ms="12182" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_CartValidationTest@285c08c8]" started-at="2024-09-29T14:24:38 BDT" name="setup" finished-at="2024-09-29T14:25:05 BDT" duration-ms="27103" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -83,11 +110,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_cartValidation()[pri:0, instance:testCases.TC003_CartValidationTest@13c3c1e1]" started-at="2024-09-26T20:57:07 BDT" name="verify_cartValidation" finished-at="2024-09-26T20:58:01 BDT" duration-ms="53403" status="PASS">
+        <test-method signature="verify_cartValidation()[pri:0, instance:testCases.TC003_CartValidationTest@285c08c8]" started-at="2024-09-29T14:25:05 BDT" name="verify_cartValidation" finished-at="2024-09-29T14:26:07 BDT" duration-ms="62631" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_cartValidation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC003_CartValidationTest@13c3c1e1]" started-at="2024-09-26T20:58:01 BDT" name="tearDown" finished-at="2024-09-26T20:58:01 BDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC003_CartValidationTest@285c08c8]" started-at="2024-09-29T14:26:07 BDT" name="tearDown" finished-at="2024-09-29T14:26:07 BDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

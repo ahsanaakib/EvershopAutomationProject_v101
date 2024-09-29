@@ -27,23 +27,28 @@ public class ExpectedProductDetailsPage extends BasePage{
 	
 	public void clickProductSize()
 	{
+		waitForElementToBeClickable(lnkProductSize, 10);
 		lnkProductSize.click(); // size M
 	}
 	public void clickProductColor()
 	{
-		lnkProductColor.click();	//color purple
+		waitForElementToBeClickable(lnkProductColor, 10);
+		lnkProductColor.click();	//color blue
 	}
 	public void inputQty(String qty)
 	{
+		waitForElementToBeVisible(inputQty, 10);
 		inputQty.clear();
 		inputQty.sendKeys(qty);	//quantity 2
 	}
 	public void clickAddToCart()
 	{
+		waitForElementToBeClickable(btnAddToCart, 10);
 		btnAddToCart.click();
 	}
 	public void clickViewCart()
 	{
+		waitForElementToBeClickable(btnViewCart, 10);
 		btnViewCart.click();
 	}
 	

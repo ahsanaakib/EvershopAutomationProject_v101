@@ -15,6 +15,7 @@ public class SearchResultPage extends BasePage{
 	
 	public void clickOnExpectedProduct()
 	{
+		waitForElementToBeClickable(lnkExpProduct, 10);
 		lnkExpProduct.click();
 	}
 
