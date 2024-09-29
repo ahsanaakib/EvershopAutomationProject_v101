@@ -1,6 +1,6 @@
 ## EvershopAutomationProject_v101
 ## Project Overview: Automation Testing for Evershop
-This project is a comprehensive automation suite for Evershop, developed using Selenium WebDriver with Java and TestNG. The main focus is to automate key features of the Evershop platform, ensuring thorough testing of the following functionalities:
+This project automates the testing of Evershop e-commerce platform, developed using Selenium WebDriver with Java and TestNG. The main focus is to automate key features of the Evershop platform, ensuring thorough testing of the following functionalities:
 * User Registration
 * Login
 * Product Search
