@@ -13,10 +13,10 @@ This project automates the testing of Evershop e-commerce platform, developed us
 * **Registration and Login Tests:** Automated validation for user creation and login processes.
 * **Product Search and Add to Cart:** Tests covering search functionality and adding products to the shopping cart.
 * **Checkout Process Test:** Automate the entire checkout workflow, including adding items to the cart, providing shipping details, and completing payment.
-* Test grouping with TestNG (e.g., Sanity, Regression).
-* Extent Reports with failure screenshots.
-* run.bat file for executing tests via Maven.
-* Jenkins Integration with GitHub for automated builds.
+* Test grouping with **TestNG** (e.g., Sanity, Regression).
+* **Extent Reports** with failure screenshots.
+* run.bat file for executing tests via **Maven**.
+* **Jenkins** Integration with **GitHub** for automated builds.
 
 ## Planned Features
 * **Account Management Tests:** Automate scenarios like updating profile information, changing passwords, and viewing order history.
